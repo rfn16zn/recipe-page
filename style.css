@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --rose-800:   #7A284E;
+  --rose-50:    #FFF7FB;
+  --stone-900:  #312E2C;
+  --stone-600:  #5F564D;
+  --stone-150:  #E3DDD7;
+  --stone-100:  #F3E5D7;
+  --brown-800:  #854632;
+  --white:      #FFFFFF;
+
+  --fs-2xlg: 40px;
+  --fs-xlg: 28px;
+  --fs-lrg: 20px;
+  --fs-reg: 1rem;
+
+  --fw-bold:      900;
+  --fw-semibold:  600;
+  --fw-reg:       400;
+
+  --space-600: ;
+}
+
+body {
+  background-color: var(--stone-100);
+}
+
+.recipe {
+
+}
