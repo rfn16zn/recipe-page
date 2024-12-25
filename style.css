@@ -41,7 +41,7 @@ html {
 
   --fw-bold:      900;
   --fw-semibold:  600;
-  --fw-reg:       400;
+  --fw-reg:       300;
 
   /*--space-600: 48px;*/
   --space-500: 2.5rem;
@@ -110,6 +110,10 @@ span {
 
 .preparation__list li::marker {
   color: var(--rose-800);
+}
+
+hr {
+  color: var(--stone-150);
 }
 
 h2 {
