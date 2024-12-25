@@ -44,9 +44,9 @@ html {
   --fw-reg:       400;
 
   /*--space-600: 48px;*/
-  --space-500: 40px;
-  --space-400: 32px;
-  --space-300: 24px;
+  --space-500: 2.5rem;
+  --space-400: 2rem;
+  --space-300: 1.5rem;
 }
 
 body {
@@ -91,4 +91,38 @@ span {
   font-weight: var(--fw-reg);
   color: var(--stone-900);
   line-height: 1;
+}
+
+.recipe__preparation {
+  background-color: var(--rose-50);
+  border-radius: 0.75rem;
+  padding: var(--space-300);
+}
+
+.preparation__title {
+  margin-bottom: 1rem;
+  color: var(--rose-800);
+  font-size: var(--fs-lrg);
+  font-weight: var(--fw-semibold);
+  line-height: 1;
+}
+
+.preparation__list li::marker {
+  color: var(--rose-800);
+}
+
+h2 {
+  font-size: var(--fs-xlg);
+  color: var(--brown-800);
+  line-height: 1;
+  margin-bottom: var(--space-300);
+}
+
+.ingredients__list li::marker,
+.instructions__list li::marker {
+  color: var(--brown-800);
+}
+
+.instructions__list li::marker {
+  font-weight: var(--fw-bold);
 }
