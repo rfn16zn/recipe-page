@@ -47,6 +47,7 @@ html {
   --space-500: 2.5rem;
   --space-400: 2rem;
   --space-300: 1.5rem;
+  --space-100: 0.5rem;
 }
 
 body {
@@ -125,4 +126,23 @@ h2 {
 
 .instructions__list li::marker {
   font-weight: var(--fw-bold);
+}
+
+.preparation__list,
+.preparation__list li {
+  padding-left: 1.4rem;
+}
+
+.ingredients__list,
+.ingredients__list li {
+  padding-left: 1.4rem;
+}
+
+.instructions__list,
+.instructions__list li {
+  padding-left: 1.4rem;
+}
+
+li:not(:last-child) {
+  margin-bottom: var(--space-100);
 }
