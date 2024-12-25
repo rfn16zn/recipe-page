@@ -34,7 +34,7 @@ html {
   --brown-800:  #854632;
   --white:      #FFFFFF;
 
-  --fs-2xlg: 40px;
+  --fs-2xlg: 36px;
   --fs-xlg: 28px;
   --fs-lrg: 20px;
   --fs-reg: 1rem;
@@ -43,7 +43,7 @@ html {
   --fw-semibold:  600;
   --fw-reg:       400;
 
-  --space-600: ;
+  /*--space-600: 48px;*/
   --space-500: 40px;
   --space-400: 32px;
   --space-300: 24px;
@@ -65,20 +65,30 @@ body {
 }
 
 .wrapper {
+  background-color: var(--white);
   padding: var(--space-500) var(--space-400);
   display: flex;
   flex-direction: column;
   gap: var(--space-400);
+  font-family: 'Outfit';
+  font-size: var(--fs-reg);
+  font-weight: var(--fw-reg);
+  color: var(--stone-600);
+  line-height: 1.5;
 }
 
 h1, h2 {
   font-family: "Young Serif";
 }
 
-.intro__title {
-  margin-bottom: var(--space-300);
+span {
+  font-weight: var(--fw-bold);
 }
 
-.intro__description {
-
+.intro__title {
+  margin-bottom: var(--space-300);
+  font-size: var(--fs-2xlg);
+  font-weight: var(--fw-reg);
+  color: var(--stone-900);
+  line-height: 1;
 }
