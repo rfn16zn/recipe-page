@@ -181,7 +181,7 @@ td:not(:last-child) {
   color: var(--brown-800);
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 620px) {
   body {
     padding: var(--space-1600) var(--space-600);
     display: flex;
@@ -201,9 +201,16 @@ td:not(:last-child) {
 
   .omelette__img {
     border-radius: 0.75rem;
+    height: 300px;
   }
 
   .wrapper {
     padding: 0;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .recipe {
+    max-width: 736px;
   }
 }
