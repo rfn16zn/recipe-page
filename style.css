@@ -47,6 +47,8 @@ html {
   --space-500: 2.5rem;
   --space-400: 2rem;
   --space-300: 1.5rem;
+  --space-200: 1rem;
+  --space-150: 0.75rem;
   --space-100: 0.5rem;
 }
 
@@ -149,4 +151,36 @@ h2 {
 
 li:not(:last-child) {
   margin-bottom: var(--space-100);
+}
+
+.nutrition__description {
+  margin-bottom: var(--space-300);
+}
+
+.nutrition__table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.nutrition__table tr:not(:last-child) {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+  padding-bottom: var(--space-150);
+}
+
+.table__title {
+  font-weight: var(--fw-reg);
+  padding-top: var(--space-150);
+  padding-right: var(--space-200);
+  padding-left: var(--space-400);
+}
+
+.table__value {
+  padding-right: var(--space-400);
+  font-weight: var(--fw-bold);
+  color: var(--brown-800);
 }
