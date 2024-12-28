@@ -43,7 +43,8 @@ html {
   --fw-semibold:  600;
   --fw-reg:       300;
 
-  /*--space-600: 48px;*/
+  --space-1600: 8rem;
+  --space-600: 3rem;
   --space-500: 2.5rem;
   --space-400: 2rem;
   --space-300: 1.5rem;
@@ -56,12 +57,7 @@ body {
   background-color: var(--stone-100);
 }
 
-/* .recipe {
-  display: flex;
-  flex-direction: column;
-} */
-
-.intro__img {
+.omelette__img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -183,4 +179,31 @@ td:not(:last-child) {
   padding-right: var(--space-400);
   font-weight: var(--fw-bold);
   color: var(--brown-800);
+}
+
+@media only screen and (min-width: 650px) {
+  body {
+    padding: var(--space-1600) var(--space-600);
+    display: flex;
+    justify-content: center;
+  }
+
+  .recipe {
+    max-width: 616px;
+    padding: var(--space-500);
+    background-color: var(--white);
+    border-radius: 1.5rem;
+  }
+
+  .recipe__image {
+    margin-bottom: var(--space-500);
+  }
+
+  .omelette__img {
+    border-radius: 0.75rem;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
 }
